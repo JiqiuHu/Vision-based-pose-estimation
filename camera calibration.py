@@ -55,13 +55,10 @@ if __name__ == '__main__':
     # outputpath = '/homes/jh523/msc_project/Lap AR/chessboard2_list/camera_calib'
     # VideotoPicture(inputpath,outputpath)
 
-    # 假设传感器尺寸为全画幅传感器
     sensor_size = [36, 24]
 
-    # 图像分辨率
     image_size = [1920, 1080]
 
-    # 焦距（像素）
     focal_length_in_pixel =  [1068.172863525421917, 1074.913074359115399]
 
     fc_x, fc_y = focal_length(sensor_size, image_size, focal_length_in_pixel)
